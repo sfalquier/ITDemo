@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  it-demo:
+    image: sfalquier/it-demo:${VERSION}
+    container_name: it-demo
+    ports:
+      - 18080:8080
